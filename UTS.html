@@ -4,60 +4,98 @@
 		<meta charset='utf-8'>
 		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 		<title>
-			TheBodyShop
+			THE GREEN GLOW
 		</title>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<link rel='stylesheet' type='text/css' media='screen' href='UTS.css'>
-		<script src="https://unpkg.com/@phosphor-icons/web">
-		</script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://unpkg.com/@phosphor-icons/web"></script>
 	</head>
 	<body>
+		
 		<!-- nav section start -->
 		<nav class="navbar">
 			<div class="logo">
-				<img src="images/The_body_shop_logo-removebg-preview.png">
+				<img src="images/logo green glow.png">
 			</div>
 			<div class="navbar-nav">
-				<a href="">
+				<a href="#registration">
+					Registration
+				<a href="#home">
 					Home
 				</a>
-				<a href="">
+				<a href="#about">
 					About Us
 				</a>
-				<a href="">
+				<a href="#produk">
 					Product
 				</a>
-				<a href="">
+				<a href="#contact">
 					Contact
 				</a>
-				<a href="">
-					Registration
+				
 				</a>
 			</div>
 			<div class="icon" id="menu">
 				<i class="ph ph-list">
 				</i>
 			</div>
-		</nav>
+		</nav>	
+
+
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 		<!-- nav section end -->
+
 		<!--Home Section Start-->
-		<div class="Home">
-			<div class="headline">
-				<h1>
-					THE BODY SHOP
-				</h1>
-			</div>
+		<div class="Home" id="home">
+				<div class="container">
+					<div class="arrow l " onclick="prev()">
+						<img src="images/l.png" alt="">
+					</div>
+					<div class="slide slide-1">
+						<div class="caption">
+							<div class="headline">
+								<h1>
+									THE GREEN GLOW
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="slide slide-2">
+						<div class="caption">
+							<div class="headline">
+								<h1>
+									THE GREEN GLOW
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="slide slide-3">
+						<div class="caption">
+							<div class="headline">
+								<h1>
+									THE GREEN GLOW
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="arrow r" onclick="next()">
+						<img src="images/r.png" alt="">
+					</div>
+				</div>
 		</div>
 		<!-- home section end -->
+
 		<!--About Us Section Start-->
-		<div class="About">
+		<div class="About" id="about">
 			<h2>
-				PROFIL THE BODY SHOP
+				PROFIL THE GREEN GLOW
 			</h2>
 			<div class="Content1">
 				<img src="images/The Story of the body shop 2.webp" alt="">
 				<p>
-					The Body Shop merupakan suatu perusahaan yang bergerak dalam bisnis kecantikan
+					The Green Glow merupakan suatu perusahaan yang bergerak dalam bisnis kecantikan
 					berupa produk-produk kosmetik atau make-up. Perusahaan ini terinspirasi
 					oleh alam, sehingga menggunakan bahan-bahan alami yang ramah lingkungan.
 					Karena The Body Shop yakin bahwa ada satu cara untuk mencapai hakikat kecantikan
@@ -76,7 +114,7 @@
 			<div class="Content2">
 				<div id="judul" class="judul">
 					<h2>
-						THE STORY OF THE BODY SHOP
+						THE STORY OF THE GREEN GLOW
 					</h2>
 				</div>
 				<div id="gambar-content2" class="gambar-content2">
@@ -125,9 +163,7 @@
 						</p>
 					</div>
 					<div class="isi-misi">
-						<h3>
-							MISI
-						</h3>
+						<h3>MISI</h3>
 						<div class="list-misi">
 							<ol>
 								<li>
@@ -194,20 +230,23 @@
 			</div>
 		</div>
 		<!--About Us Section end-->
+
 		<!-- produk start -->
-		<div class="produk">
+		<div class="produk" id="produk">
+			<h2>PRODUCT</h2>
 			<div class="produk1">
+				<!-- <img src="images/image.png" alt=""> -->
 				<div class="button-gambar">
-					<button>
-						<a href="">
+						<a href="#produk0">
 							View all
 						</a>
-					</button>
 				</div>
 			</div>
 			<div class="gambar2-produk">
-				<img src="images/image.png" alt="">
+				<img src="images/product the body shop.jpg" alt="">
 				<div class="text-gambar2">
+					<h3>NEW</h3>
+					<br>
 					<p>
 						Apakah Anda mencari sesuatu yang spesial? Di sini Anda akan menemukan
 						berbagai produk terbaru yang menarik untuk ditemukan, seperti Body Butter,
@@ -220,29 +259,36 @@
 					</p>
 				</div>
 			</div>
-			<div class="gambar3-produk">
-				<div class="Temukan Keajaiban Bunga Edelwaiss dalam Produk The Body Shop">
-					<p>
-						Temukan Keajaiban Bunga Edelwaiss dalam Produk The Body Shop
-					</p>
-				</div>
-				<div class="Our packing">
-					<p>
-						Our Packaging
-					</p>
-				</div>
-				<div class="Saatnya Beralih ke Parfum Vegan">
-					<p>
-						Saatnya Beralih ke Parfum Vegan
-					</p>
-				</div>
+			<div class="produk-artikel">
+					<div class="konten">
+						<img src="images/edelwaisss.webp" alt="">
+						<div class="konten-p">
+							<a href="https://www.thebodyshop.co.id/blog/temukan-keajaiban-bunga-edelweiss-dalam-produk-the-body-shop">Temukan Keajaiban Bunga Edelwaiss dalam Produk The Body Shop</a>
+						</div>
+					</div>
+				<li>
+					<div class="konten">
+						<img src="images/ourpackaging.webp" alt="">
+						<div class="konten-p">
+							<a href="https://www.thebodyshop.co.id/OUR-PACKAGING">Our Packing</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="konten">
+						<img src="images/parfum.webp" alt="" class="">
+						<div class="konten-p">
+							<a href="https://www.thebodyshop.co.id/blog/8-Cara-Menggunakan-Parfum-Agar-Wangi-Tahan-Lama">8 Cara menggunakan parfum agar tahan lama</a>
+						</div>
+					</div>
+				</li>
 			</div>
 		</div>
-		<div class="produk0">
-			<h2>Product</h2>
+		<div class="produk0" id="produk0">
+			<h2>PRODUCT</h2>
 			<div class="Product">
 				<d1>Product The Body Shop
-					<dt>Make-Up</dt>
+					<h5>Make-Up</h5>
 					<img src="images/liptint.webp">
 					<dd>Dalam kategori Make Up, konsumen dapat menemukan bedak dan foundation
 						yang dapat menutupi ketidaksempurnaan di kulit wajah, terdapat maskara
@@ -252,7 +298,7 @@
 					<div class="clear">
 					</div>
 					<br>
-					<dt>Body Care</dt>
+					<h5>Body Care</h5>
 					<img src="images/bodybutter.webp">
 					<dd>The Body Shop mendapatkan inspirasi dari alam untuk membuat produk body
 						care, dimulai dari sabun mandi, body scrub, pelembab, perawatan tangan
@@ -260,101 +306,111 @@
 					<div class="clear">
 					</div>
 					<br>
-					<dt>Fragrance</dt>
+					<h5>Fragrance</h5>
 					<img src="images/bodymist.webp">
 					<dd>Untuk mempermanis tampilan, konsumen bisa membeli berbagai macam pewangi untuk tubuh.</dd>
 					<br>
 					<br>
 				</d1>
-                <div class="tabel">
-                    <h3>PRODUCT</h3>
-                    <p>Adapun susunan dan pembagian relief cerita pada dinding dan pagar langkan candi adalah sebagai berikut:</p>
-                    <table id="Product">
-                        <tr>
-                            <th>Kategori Produk</th>
-                            <th>Jenis Produk</th>
-                        </tr>
-                        <tr>
-                            <td>Make Up</td>
-                            <td>Bronzer, BB Cream, Blush on, Brow Liner, Concealer, Eyeliner, Eyeshadow
-                                Foundation Lipstick, Lipbalm, Lip Treatment, Lip&Cheek Stain, Lip Liner, Lip Gloss,
-                                Make-up Base, Mascara, Powder, Shimmer dan akesesoris make up.</td>
-                        </tr>
-                        <tr>
-                            <td>Body Care</td>
-                            <td>Body Lotion, Body Scrub, Body Butter, Body Mist, Body Polish, Beautifying Oil,
-                                Foot Spray, Foot Lotion, Foot Rescue, Leg Fel, Foot Scrub, Hand Cream, Hand
-                                Butter, Hand Cleanse Gel, Lip Balm, , Lip Butter, Lip Care Stick
-                                </td>
-                        </tr>
-                        <tr>
-                            <td>Fragrance</td>
-                            <td>Body Mist, Eau de Toilette, Eau de Parfum, Solid Fragrance, Perfume Oil<td>                      
-                        </tr>
-                    </table>
+			</div>
+		</div>
+		<!--tabel-->
+        <div class="tabel">
+            <h2>PRODUCT</h2>
+            <table>
+                <tr>
+                	<th>Kategori Produk</th>
+                	<th>Jenis Produk</th>
+                </tr>
+                <tr>
+                    <td>Make Up</td>
+                    <td>Bronzer, BB Cream, Blush on, Brow Liner, Concealer, Eyeliner, Eyeshadow Foundation Lipstick, Lipbalm, Lip Treatment, Lip&Cheek Stain, Lip Liner, Lip Gloss,Make-up Base, Mascara, Powder, Shimmer dan akesesoris make up.</td>
+                </tr>
+                <tr>
+                    <td>Body Care</td>
+                    <td>Body Lotion, Body Scrub, Body Butter, Body Mist, Body Polish, Beautifying Oil, Foot Spray, Foot Lotion, Rescue, Leg Fel, Foot Scrub, Hand Cream, Hand Butter, Hand Cleanse Gel, Lip Balm, , Lip Butter, Lip Care Stick</td>
+                </tr>
+                <tr>
+                    <td>Fragrance</td>
+					<td>Body Mist, Eau de Toilette, Eau de Parfum, Solid Fragrance, Perfume Oil</td>
+                </tr>
+            </table>
+        </div>
+		<!--gallery-->
+        <div class="gallery" id="gallery">
+            <div class="gallery-tittle">
+                <h1>GALLERY</h1>
+            </div>
+            <div class="container">
+                <img src="images/liptint.webp" alt="">
+                <img src="images/bodymist.webp" alt="">
+                <img src="images/bodybutter.webp" alt="">
+                <img src="images/bodybutter.webp" alt="">
+                <img src="images/face base.webp" alt="">
+            </div>
+            <div class="container">
+                <img src="images/product the body shop.jpg" alt="">
+                <img src="images/The Story of the body shop 2.webp" alt="">
+                <img src="images/thebodyshopus.jpg" alt="">
+                <img src="images/thebodyshopus.jpg" alt="">
+                <img src="images/image.png" alt="">
+            </div>
+        </div>
+
+
+		<section id="registration">
+            <div class="form-box">
+                <div class="form-value">
+                    <form>
+                        <h2>Registration</h2>
+						<div class="inputbox"><input type="nama" required>
+                            <label>Nama</label>
+                        </div>
+                        <div class="inputbox"><input type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="inputbox"><input type="password"
+                                required> <label>Password</label> 
+						</div>
+						<div class="inputbox"><input type="password"
+							required><label>Confirm Password</label> 
+					</div> 
+						<button>Register</button>
+                        <div class="register">
+                            <p>Do you have account ?<a href="#"> Sign in</a></p>
+                        </div>
+                    </form>
                 </div>
             </div>
-                <div class="gallery" id="gallery">
-                    <div class="gallery-tittle">
-                        <h1>GALLERY</h1>
-                    </div>
-                    <div class="container">
-                        <img src="images/liptint.webp" alt="">
-                        <img src="images/bodymist.webp" alt="">
-                        <img src="images/bodybutter.webp" alt="">
-                        <img src="images/bodybutter.webp" alt="">
-                        <img src="images/face base.webp" alt="">
-                    </div>
-                    <div class="container">
-                        <img src="images/product the body shop.jpg" alt="">
-                        <img src="images/The Story of the body shop 2.webp" alt="">
-                        <img src="images/thebodyshopus.jpg" alt="">
-                        <img src="images/thebodyshopus.jpg" alt="">
-                        <img src="images/image.png" alt="">
-                    </div>
-                </div>
-		
-            <div class="footer-section">
-                <h3>Contact</h3>  
-               <p>+6281 1178 5115</p> 
-              <a href="care@thebodyshop.co.id">email</a>
-               <a href="https://www.instagram.com/thebodyshop ">instagram</a>
-               <a href="https://www.thebodyshop.co.id/">Website The Body Shop</a>
-          </div> 
-          <div class="footer-section">
-            <h3>Jam Operational</h3>  
-            <p>Senin - Minggu: 08.00 - 22.00 WIB</p>
-        </div>
-        <section>
-            <h2> feedback</h2>
-        
-            <form>
-                <label for="fname" style="font-size: larger;">Username</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="ulasan" style="font-size: large;">Ulasan</label><br>
-                <input type="text" id="ulasan" name="ulasan"><br>
-                <button onclick="myFunction()">Submit</button>
-            </form>
-            <p id="demo"></p>
-        
-            <script>
-                function myFunction() {
-                    var txt;
-                    if (confirm("Pesan Terkirim!")) {
-                    txt = "You pressed OK!";
-                    } else {
-                    txt = "You pressed Cancel!";
-                    }
-                    document.getElementById("demo").innerHTML = txt;
-                    }
-                </script>
         </section>
-        <div id="copyright">
-            <div class="wrapper">
-             &copy; 2023. <b>The Body Shop</b> All Rights Reserved.
-            </div> 
-    </div>
 
+		<!--footer contact-->
+		<div id="contact">
+			<div class="wrapper">
+			  <div class="footer">
+				<div class="footer-section">
+				  <h3>Jam Operational</h3>  
+				 <p>Senin - Minggu 08.00-22.00 WIB </p> 
+				</div>
+				<div class="footer-section">
+					<h3>Contact</h3>  
+				   <p>+6281 1178 5115</p> 
+				   <p>care@thebodyshop.co.id</p>
+			  </div> 
+			<div class="footer-section">
+				<h3>Social Media</h3>  
+				<a class="ph ph-instagram-logo" href="https://www.instagram.com/thebodyshop/"></a>
+				<a class="ph ph-youtube-logo" href="https://www.youtube.com/@thebodyshop"></a>
+				<a class="ph ph-twitter-logo" href="https://twitter.com/TheBodyShopIndo"></a>
+			</div>
+			<div id="copyright">
+				<div class="wrapper">
+				 &copy; 2023. <b>The Green Glow</b> All Rights Reserved.
+				</div> 
+			</div>
+		</div>
+
+		
 
 			<script src='main.js'>
 			</script>
